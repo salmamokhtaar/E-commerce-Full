@@ -13,7 +13,7 @@ function CartItem({items}) {
   return (
     <div className='pt-28 '>
   
-    <div className='border-2 border-gray-300 w-[50%] h-[120px]  flex ml-[340px] shadow-lg'>
+    <div className='border-2 border-gray-300 sm:w-[50%] sm:h-[120px]  flex sm:ml-[340px] sm:shadow-lg'>
     <img className=' w-[140px] h-[90px] mt-3 border-2 border-gray-300 ml-5 ' src={items.image} alt="" />
     <p className='ml-20 font-bold mt-10'>{items.name}</p>
     <p className='ml-20 font-bold mt-10'>{items.price}</p>
